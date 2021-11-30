@@ -11,23 +11,48 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="header">
+  <header class="header">
     <div class="container">
-      <a class="logo" href="#">
-        <img class="logo__img" src="/images/logo.svg" alt="">
-      </a>
-      <div class="header__nav">
-        <ul class="header__nav-menu">
-          <li class="header__nav-menulist"></li>
-          <li class="header__nav-menulist"></li>
-          <li class="header__nav-menulist"></li>
-          <li class="header__nav-menulist"></li>
-          <li class="header__nav-menulist"></li>
-        </ul>
+      <div class="header__inner">
+
+
+        <div class="header__top">
+          <a class="logo" href="">
+            <img class="logo__img" src="./images/logo.svg" alt="">
+          </a>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item"><a href="#" class="menu__link">ГЛАВНАЯ</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">ОБ АВТОРЕ</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">РАБОТЫ</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">ПРОЦЕСС</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">КОНТАКТЫ</a></li>
+            </ul>
+          </nav>
+        </div>
+
+
+        <div class="header__content">
+          <img src="./images/header__img.jpg" alt="" class="header__img">
+          <h3 class="header__title">
+            Дизайн и верстка
+          </h3>
+          <p class="header__decr">
+            Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+          </p>
+          <a class="header__btn" href="#">НАПИСАТЬ МНЕ</a>
+        </div>
+
+
+        <div class="header__about">
+          <p class="header__text">
+            <span>Обо мне</span>
+            Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+          </p>
+        </div>
       </div>
     </div>
-  </div>
-  
+  </header>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="js/slick.min.js"></script>
